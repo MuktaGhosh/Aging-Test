@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WSMT</string>
+    <string name="total_reel_collected">Total Reels:</string>
+    <string name="total_items">Total Items :</string>
+    <string name="checked_reels">Checked Reels :</string>
+    <string name="last_scan">Last Scan :</string>
+    <string name="last_part_no">Last Part No :</string>
+    <string name="scan_barcode">Scan QRCode</string>
+    <string name="normal">Normal</string>
+    <string name="reverse_location">Reverse Location</string>
+
+</resources>

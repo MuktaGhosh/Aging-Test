@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:gravity="center_horizontal"
+        android:text="Select Handset"
+        android:textColor="@color/colorAccent"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/sp_handset"
+        android:hint="select handset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyleSearch"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="3dp"
+        android:layout_weight="1"
+        android:visibility="visible" />
+
+    <TextView
+        android:layout_margin="20dp"
+        android:id="@+id/tvStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_button"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:paddingTop="10dp"
+        android:text="Load"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+</LinearLayout>

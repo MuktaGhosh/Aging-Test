@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1246FF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        android:background="@drawable/textboxstyle"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageclock"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/timer"
+            android:textColor="#000000"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/timerButtonone"
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text=" Aging test run time"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/timerButton"
+            android:layout_width="143dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:textAlignment="center"
+            android:textColor="#1246FF"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/timerButtontwo"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_gravity="center"
+            android:text="  hrs   mins   secs"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+
+        android:background="@drawable/textboxstyletwo"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/toggleButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/lightoff"
+            android:orientation="horizontal"
+
+            />
+
+
+        <Button
+            android:id="@+id/wifiButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/wifi_off"
+            android:orientation="horizontal" />
+
+
+        <Button
+            android:id="@+id/bluetoothButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bluetooth_off"
+            android:orientation="horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:background="@drawable/textboxstyletwo"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="131dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/brightnesslayout"
+            android:orientation="horizontal">
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="10dp"
+
+                android:max="255" />
+        </LinearLayout>
+
+        <VideoView
+            android:id="@+id/videoButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/video_pause"
+            android:orientation="horizontal" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
